@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="refresh()">
+       
+    <div id='clock'></div> 
+    <div id="date">  </div>
+    <p id="click"> Click by: Ajay Raj</p>
+  
+    
+
+<!-- <button id="button" onclick = "iclock()"> Click here </button> -->
+
+
+<!-- <section id="clock"> -->
+
+
+
+<!-- </section> -->
+
+<script>
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+function refresh(){
+    setInterval(iclock, 1000);
+}
+
+
+function iclock(){
+let wholedate = new Date();
+let h = wholedate.getHours();
+let m = wholedate.getMinutes();
+let s = wholedate.getSeconds();
+let time = h + " :" + m +" :"+ s;
+let y = wholedate.getFullYear();
+let month = months[wholedate.getMonth()];
+let D = wholedate.getDate();
+let date = month + "-"+ D +"-" + y ;
+
+document.getElementById('clock').innerHTML =time,
+document.getElementById('date').innerHTML = date }
+
+
+
+
+</script>
+    
+</body>
+</html>

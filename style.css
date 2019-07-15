@@ -1,0 +1,43 @@
+body{
+    background-image: url("IMG_124medows.jpg");
+    background-size: 1300px 700px;
+}
+
+#pala{
+margin-left: 40%;
+
+}
+
+#clock{
+    text-align: center;
+    margin-left: 7%;
+    margin-top:4%;
+    padding: 1%;
+    color:blue;
+    font-size: 200%;
+    border-width: 3px;
+    border-block-color: solid black;
+}
+
+#button:hover{
+    background-color: green;
+}
+#date{
+    text-align: center;
+    margin-left: 7%;
+    margin-bottom:60%;
+    padding: 1%;
+    color: rgb(0, 140, 255);
+    font-size: 150%;
+    border-width: 3px;
+}
+
+#click{
+    text-align: center;
+    margin-left: 7%;
+    margin-bottom:30%;
+    padding: 1%;
+    color: red;
+    font-size: 100%;
+    border-width: 3px;
+}
