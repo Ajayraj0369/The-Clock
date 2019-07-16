@@ -9,11 +9,17 @@
 </head>
 <body onload="refresh()">
        
-    <div id='clock'></div> 
-    <div id="date">  </div>
-    <p id="click"> Click by: Ajay Raj</p>
-  
+    <div class='all' id='clock'></div> 
+    <div  class='all' id="date">  </div>
+
+    <div id="click"> 
+        
+    </div>
+       
     
+   
+     
+   
 
 <!-- <button id="button" onclick = "iclock()"> Click here </button> -->
 
@@ -23,6 +29,11 @@
 
 
 <!-- </section> -->
+
+ <!-- <footer style="position: absolute; float:left"> -->
+        <!-- <p>Click by: Ajay Raj</p> -->
+     <!-- </footer> -->
+    
 
 <script>
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -42,14 +53,16 @@ let y = wholedate.getFullYear();
 let month = months[wholedate.getMonth()];
 let D = wholedate.getDate();
 let date = month + "-"+ D +"-" + y ;
+let clicked = "Click by : Ajay Raj"
 
 document.getElementById('clock').innerHTML =time,
-document.getElementById('date').innerHTML = date }
-
-
-
+document.getElementById('date').innerHTML = date
+document.getElementById('click').innerHTML = clicked
+}
 
 </script>
+    
+  
     
 </body>
 </html>

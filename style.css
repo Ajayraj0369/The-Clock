@@ -1,6 +1,9 @@
 body{
     background-image: url("IMG_124medows.jpg");
-    background-size: 1300px 700px;
+    /* background-size: 1300px 700px; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 #pala{
@@ -8,10 +11,10 @@ margin-left: 40%;
 
 }
 
-#clock{
+.all {
     text-align: center;
-    margin-left: 7%;
-    margin-top:4%;
+    /* margin-left: 107%; */
+    /* margin-top:4%; */
     padding: 1%;
     color:blue;
     font-size: 200%;
@@ -22,22 +25,22 @@ margin-left: 40%;
 #button:hover{
     background-color: green;
 }
-#date{
+/* #date {
     text-align: center;
-    margin-left: 7%;
-    margin-bottom:60%;
+   
     padding: 1%;
     color: rgb(0, 140, 255);
     font-size: 150%;
     border-width: 3px;
-}
+} */
 
-#click{
-    text-align: center;
-    margin-left: 7%;
-    margin-bottom:30%;
+ #click{
+    /* text-align: center; */
+    margin-left: 85%;
+    margin-top:32%;
     padding: 1%;
-    color: red;
-    font-size: 100%;
+    color:#ffffff;
+    font-size: 120%;
     border-width: 3px;
-}
+    margin-bottom: 10%;
+} 
